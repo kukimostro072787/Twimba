@@ -25,7 +25,7 @@ signUpForm.addEventListener("submit", function (e) {
     modal.style.display = "none";
   } else {
     let modalError = document.getElementById("modal-error");
-    modalError.innerHTML = "Las passwords no coinciden";
+    modalError.innerHTML = "Passwords do not match";
     signUpForm.reset();
   }
 });
